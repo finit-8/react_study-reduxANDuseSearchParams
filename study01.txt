@@ -1,0 +1,4 @@
+index.js에서 <BrowserRouter> 없애고,
+App.js에서는 다른 컴포넌트 출력 안하고 라우터 폴더 하나만 출력하겠다고 지정.
+메인 컨테이너에는 return문에 html구조 및 Link to 쿼리스트링만 적어서 페이지 이동 연결.
+인트로 컨테이너에서 실제 상세 내용과 데이터 조회/표시 코딩 (Redux객체, useSearchParams)
